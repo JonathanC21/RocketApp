@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double deltaVMs = 0.0;
-        double dryMassKg = 0.0;
-        double wetMassKg = 0.0;
-        double exhaustVelocityMs = 0.0;
-        double thrustToWeightRatio = 0.0;
+        double deltaVMs;
+        double dryMassKg;
+        double wetMassKg;
+        double exhaustVelocityMs;
+        double thrustToWeightRatio;
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Type in the wet mass");
